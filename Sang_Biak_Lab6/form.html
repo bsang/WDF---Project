@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Form</title>
+  <style type="text/css">
+    body {
+      width: 400px;
+      margin: 0 auto;
+    }
+
+    label {
+
+      width: 200px;
+      height: 25px;
+      line-height: 30px;
+      text-align: left;
+      display: block;
+      margin-right: 10px;
+    }
+  </style>
+		
+</head>
+<body id="edit-profile">
+	<!-- Container -->	
+	<div id="container"><div id="container-inner">
+
+		<h1>Sign Up For Ticket</h1>
+		<form action="#" method="get">
+			<fieldset>
+				<!-- photo -->
+				<div>
+				  <label for="your_photo">Your profile photo</label><input type="file" name="your_photo" value="" id="your_photo" />
+				  
+				</div>
+				
+				<!-- first name -->
+				<div>
+				  <label for="firstname">First name</label><input type="text" name="firstname" value="" id="firstname" .>
+				</div>
+				
+				<!-- last name -->
+				<div>
+				  <label for="lastname">Last name</label><input type="text" name="lastname" value="" id="lastname" />
+				</div>
+				<!-- gender -->
+				<div>
+<fieldset id="gender" class="">
+  <legend>Gender</legend>
+  <label for="female">Female</label> <input type="radio" name="gender" value="female" id="female" />
+  <label for="male">Male</label> <input type="radio" name="gender" value="male" id="male" />
+  
+</fieldset>  
+				</div>
+				
+				<!-- birthdate -->
+				
+          <!-- DOB -->
+  				<fieldset id="section-dob">
+  					<legend><span>Birth date</span></legend>
+  					<!-- Month -->
+  					<div>
+  						<label for="dob_month">Month</label>
+  						<select name="dob_month" id="dob_month">
+  							<option> - Month - </option>
+  							<option value="January">January</option>
+  							<option value="Febuary">Febuary</option>
+  							<option value="March">March</option>
+  							<option value="April">April</option>
+  							<option value="May">May</option>
+  							<option value="June">June</option>
+  							<option value="July">July</option>
+  							<option value="August">August</option>
+  							<option value="September">September</option>
+  							<option value="October">October</option>
+  							<option value="November">November</option>
+  							<option value="December">December</option>
+  						</select>
+  					</div>
+
+  					<!-- Day -->
+  					<div>
+  						<label for="dob_day">Day</label>
+  						<select name="dob_day" id="dob_day">
+  							<option> - Day - </option>
+  							<option value="1">1</option>
+  							<option value="2">2</option>
+  							<option value="3">3</option>
+  							<option value="4">4</option>
+  							<option value="5">5</option>
+  							<option value="6">6</option>
+  							<option value="7">7</option>
+  							<option value="8">8</option>
+  							<option value="9">9</option>
+  							<option value="More">10</option>
+  						</select>
+  					</div>
+
+  					<!-- Year -->
+  					<div>
+  						<label for="dob_year">Year</label>
+  						<select name="dob_year" id="dob_year">
+  							<option> - Year - </option>
+  							<option value="2004">2004</option>
+  							<option value="2003">2003</option>
+  							<option value="2002">2002</option>
+  							<option value="2001">2001</option>
+  							<option value="2000">2000</option>
+  						</select>
+  					</div>
+  					<em class="note">This is hidden by default from your profile.</em>
+  				</fieldset>
+  				
+				<!-- about you -->
+				<div>
+				  <label for="about_you">About you</label> <textarea name="about_you" id="about_you" rows="8" cols="40"></textarea>
+				</div>
+				
+        <input type="checkbox" name="vehicle" value="Bike" /> I have a Website
+        <input type="checkbox" name="vehicle" value="Car" /> I don't have a Website
+
+				<!-- website url -->
+				<div>
+				  <label for="website_url">Website URL</label><input type="text" name="website_url" value="" id="website_url">
+				  
+				</div>
+				
+				<!-- website name -->
+				<div>
+				  <label for="website_name">Website name</label><input type="text" name="website_url" value="" id="website_name">
+				  
+				</div>
+				<!-- Controls -->
+  			<div class="controls">
+  				<input id="submit" name="submit" type="submit" value="Sign Up" />
+  			</div>
+				
+				
+			</fieldset>
+			
+
+			
+		</form>
+			
+	</div></div>	<!-- /Container -->
+	
+</body>
+</html>
