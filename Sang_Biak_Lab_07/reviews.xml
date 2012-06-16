@@ -7,21 +7,21 @@
 
 		<item>
 			<title><a href="rss_link.html">Christmas Time</a></title>
-			<link>link goes here</link>
+			<link>https://github.com/bsang/WDF---Project/blob/gh-pages/Sang_Biak_Lab_07/rss_link.html</link>
 			<description>Here is a sweet story about Christmas Time movie. Robert is 23 years old who attending university at out of state. He can't wait to go back home for Christmas break.
 			</description>
 		</item>
 
 		<item>
 			<title <a href="rss_link.html">>Shining Forest</a></title>
-			<link>link goes here</link>
+			<link>https://github.com/bsang/WDF---Project/blob/gh-pages/Sang_Biak_Lab_07/rss_link.html</link>
 			<description>There are two brothers in the forest and they don't want to return home for some reason. </description>
 		</item>
 
 		<item>
 			<title><a href="rss_link.html">Second Coming</a></title>
-			<link>The prophet have told many people about the second coming of Christ. But they don't believe him and they don't want to repent their sins infront of God. </link>
-			<description></description>
+			<link>https://github.com/bsang/WDF---Project/blob/gh-pages/Sang_Biak_Lab_07/rss_link.html</link>
+			<description>The prophet have told many people about the second coming of Christ. But they don't believe him and they don't want to repent their sins infront of God. </description>
 		</item>
 	</channel>
 </rss>
