@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title></title>
+		<style type="text/css">
+			body {
+				background: #fff;
+				font-family: Arial, sans-serif;
+				font-size: .9em;
+			}
+			#container {
+				width: 300px;
+				background: #f0f0f0;
+				margin: 0 auto;
+				box-shadow: 3px 3px 3px #ccc;
+				padding: 5px 20px 20px 20px;
+			}
+
+			label {
+				width: 180px;
+				height: 35px;
+				padding-right: 10px;
+				line-height: 35px;
+				display: block;
+			}
+
+			h1 {
+				width: 100%;
+				background: #ddd;
+				text-indent: 10px;
+			}
+
+		</style>
+	</head>
+		<body>
+		<div id="container">
+			<h1>HTML5 Form</h1>
+			<form action="#" method="get">
+			<div>
+				<label for="email">Email</label>
+				<input type="email" name="email" placeholder="Enter Your Email" required="required" />
+			</div>
+
+			<div>
+				<label for="url">Website </label>
+				<input type="url" name="homepage" placeholder="Website url" />
+			</div>
+
+			<div>
+				<label for="tel">Phone</label>
+				<input type="tel" name="user_tel" placeholder="Phone Number" required="required" />
+			</div>
+
+			<div>
+				<label for="search">Search</label>
+				<input type="search" name="search" placeholder="Search" required="required" />
+			</div>
+
+			<div>
+				<label for="color">Color</label>
+				<input type="color" name="color" placeholder="Color" />
+			</div>
+
+			<div>
+				<label for="range">Range</label>
+				<input type="range" name="range" min="1" max="10"/>
+			</div>
+
+			<div>
+				<label for="number">Number (between 1 and 5)</label>
+				<input type="number" name="quantity" min="1" max="5"/>
+			</div>
+
+			<div>
+				<label for="date">Date</label>
+				<input type="date" name="date" required="required"/>
+			</div>
+
+			<div>
+				<label for="time">Time</label>
+				<input type="time" name="time" />
+			</div>
+
+			<div>
+				<label for="datatype">Datatype</label>
+				<input list="editor" name="editor" />
+				<datalist id="editor">
+					<option value="Sublime">
+					<option value="Text Wrangler">
+					<option value="Notepad ++"
+				</datalist>
+			</div>
+
+			<div>
+				<label for="progress">Progress</label>
+				<progress value="50" max="100"></progress>
+			</div> <br />
+
+			<input type="submit" name="submit" />
+			</form>
+		</div>
+		</body>
+</html>

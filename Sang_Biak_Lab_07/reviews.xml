@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>Movies Reviews</title>
+		<link>url goes here</link>
+		<description>Many people love to watch movies but some people don't get a chance to watch movie. Some people love to read movie reviews first and watch the movie later. We reviews many movies and music videos.</description>
+
+		<item>
+			<title><a href="rss_link.html">Christmas Time</a></title>
+			<link>link goes here</link>
+			<description>Here is a sweet story about Christmas Time movie. Robert is 23 years old who attending university at out of state. He can't wait to go back home for Christmas break.
+			</description>
+		</item>
+
+		<item>
+			<title <a href="rss_link.html">>Shining Forest</a></title>
+			<link>link goes here</link>
+			<description>There are two brothers in the forest and they don't want to return home for some reason. </description>
+		</item>
+
+		<item>
+			<title><a href="rss_link.html">Second Coming</a></title>
+			<link>The prophet have told many people about the second coming of Christ. But they don't believe him and they don't want to repent their sins infront of God. </link>
+			<description></description>
+		</item>
+	</channel>
+</rss>
