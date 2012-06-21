@@ -1,0 +1,121 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.page-wrapper {
+	width: 650px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+	background-image: url(../images/bg_wrapper.png);
+	background-repeat: repeat-y;
+	background-position: center;
+}
+#header {
+	height: 130px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../images/bg_header.jpg);
+	background-repeat: no-repeat;
+	background-position: 3px bottom;
+}
+
+#header h1 {
+	text-indent: -9999px;
+	padding: 0;
+	margin: 0;
+}
+#navigation {
+	font-family: "Trebuchet", Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	background-image: url(../images/bg_nav.jpg);
+	width: 610px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-repeat: repeat-x;
+	overflow: hidden;
+}
+#main {
+	background-image: url(../images/bg_wrapper.png);
+	background-repeat: repeat-y;
+	width: 610px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	overflow: hidden;
+}
+
+#navigation li {
+	text-decoration: none;
+	list-style-type: none;
+	display: inline;
+	padding-right: 2em;
+}
+
+#navigation li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+#navigation li a:hover {
+	color: #fff;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;	
+}
+.main {
+	float: right;
+	width: 330px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: "Trebuchet", Arial, Helvetica, sans-serif;
+}
+
+h2, h3 {
+	font-family: "Trebuchet", Arial, Helvetica, sans-serif;
+	color: #00a1e4;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-family: "Trebuchet", Arial, Helvetica, sans-serif;
+}
+
+#main h1 {
+	font-size: 155%;
+}
+
+#main ul li {
+	list-style-type: none;
+	padding-bottom: 20px;}
+
+.footer {
+	padding: 15px;
+	text-align: right;
+	color: #9a9a9a;
+	clear: both;
+	width: 614px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+	border-radius: 0 0 10px 10px;
+	border-left: #CCCCCC 3px solid;
+	border-right: #CCCCCC 3px solid;
+	border-bottom: #CCCCCC 3px solid;
+}
+.support {
+	float: left;
+	text-align: center;
+	width: 220px;
+}
